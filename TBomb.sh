@@ -35,7 +35,7 @@ banner() {
         echo -e "\e[4;34m This Bomber Was Created By \e[1;32m@nora_dav \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
-        toilet -f mono12 -F border @nora_dav
+        toilet -f mono12 -F border NORA
     fi
 
     echo " "
@@ -96,7 +96,7 @@ else
     echo .
     echo .
     install_deps
-    echo This Script Was Made By @nora_dav> .update
+    echo This Script Was Made By NORA> .update
     echo 'Requirements Installed....'
     pause
 fi
